@@ -468,6 +468,18 @@ section {
     margin: 0;
 }
 
+.social-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 .whatsapp-buttons {
     margin-top: 3rem;
     display: flex;
@@ -537,6 +549,24 @@ section {
 .footer-section p {
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.8;
+}
+
+.footer-social {
+    margin-top: 1rem;
+}
+
+.footer-social-link {
+    display: inline-block;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+}
+
+.footer-social-link:hover {
+    color: var(--white);
+    transform: translateX(5px);
 }
 
 .footer-section ul {
